@@ -118,8 +118,11 @@
     <Content Include="js\custom.js" />
     <Content Include="js\jquery-3.4.1.min.js" />
     <Content Include="login.aspx" />
+    <Content Include="payment.aspx" />
     <Content Include="userhome.aspx" />
     <Content Include="userreg.aspx" />
+    <Content Include="viewbill.aspx" />
+    <Content Include="viewcart.aspx" />
     <Content Include="viewproduct.aspx" />
     <Content Include="viewsingleproduct.aspx" />
     <Content Include="Web.config" />
@@ -175,6 +178,13 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -210,6 +220,20 @@
     </Compile>
     <Compile Include="userreg.aspx.designer.cs">
       <DependentUpon>userreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewbill.aspx.cs">
+      <DependentUpon>viewbill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewbill.aspx.designer.cs">
+      <DependentUpon>viewbill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewcart.aspx.cs">
+      <DependentUpon>viewcart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewcart.aspx.designer.cs">
+      <DependentUpon>viewcart.aspx</DependentUpon>
     </Compile>
     <Compile Include="viewproduct.aspx.cs">
       <DependentUpon>viewproduct.aspx</DependentUpon>

@@ -159,6 +159,7 @@
 
                 <asp:Button ID="Button4" runat="server"
                     OnClick="Button4_Click"
+                    PostBackUrl="~/viewcart.aspx"
                     Text="View Cart"
                     CssClass="btn-custom" />
             </td>

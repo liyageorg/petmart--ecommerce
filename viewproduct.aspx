@@ -45,7 +45,7 @@
                                     Height="120px"
                                     Width="120px"
                                     ImageUrl='<%# Eval("Product_image") %>'
-                                    CommandArgument='<%# Eval("product_id") %>'
+                                    CommandArgument='<%# Eval("Product_id") %>'
                                     OnCommand="ImageButton3_Command"
                                     style="
                                         border-radius:10px;
@@ -85,7 +85,7 @@
                                 color:#555;
                                 padding:8px 5px;">
                                 <asp:Label ID="Label3" runat="server" 
-                                    Text='<%# Eval("product_desc") %>'>
+                                    Text='<%# Eval("Product_desc") %>'>
                                 </asp:Label>
                             </td>
                         </tr>

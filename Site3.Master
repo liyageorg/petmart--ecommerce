@@ -17,7 +17,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Petlor</title>
+  <title>Petmart</title>
 
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
@@ -93,7 +93,7 @@
     <section class=" slider_section position-relative">
       <div class="slider_bg_box" style="text-align:center;">
 
-    <img src= "images/user.jpg" alt="User Home"
+    <img src= <%--images/user.jpg --%>alt="User Home"
         style="
         width:100%;
         max-width:520px;

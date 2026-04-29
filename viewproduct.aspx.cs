@@ -13,11 +13,12 @@ namespace PET_MART
     public partial class viewproduct : System.Web.UI.Page
     {
         connection obj = new connection();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                string sel = "select * from product where cat_id = "+ Session["catid"] +" and product_status = 'available'";
+                string sel = "select * from Product where cat_id = " + Session["catid"] + " and Product_status = 'available'";
                 DataTable dt = obj.fn_datatable(sel);
                 DataList1.DataSource = dt;
                 DataList1.DataBind();
