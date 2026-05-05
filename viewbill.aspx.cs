@@ -36,9 +36,6 @@ namespace PET_MART
                     Label6.Text = dr["User_name"].ToString();
                     Label8.Text = dr["User_address"].ToString();
                     Label10.Text = dr["User_email"].ToString();
-                    //Label12.Text = dr["Quantity"].ToString();
-                    //Label14.Text = dr["Product_price"].ToString();
-                    //Label16.Text = dr["Subtotal"].ToString();
                     Label18.Text = dr["Grand_total"].ToString();
                 }
 

@@ -4,10 +4,10 @@
     .auto-style1 {
         width: 100%;
     }
-    .auto-style2 {
-        width: 11px;
-    }
-</style>
+        .auto-style3 {
+            width: 200px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style1" style="background:#f5f5f5; padding:30px 0;">
@@ -32,12 +32,11 @@
                         box-shadow:0 6px 15px rgba(0,0,0,0.15);
                         padding:15px;
                         margin:15px;
-                        width:200px;
                         text-align:center;
                         transition:0.3s;
                     "
                     onmouseover="this.style.transform='scale(1.05)'"
-                    onmouseout="this.style.transform='scale(1)'">
+                    onmouseout="this.style.transform='scale(1)'" class="auto-style3">
 
                         <tr>
                             <td style="padding-bottom:10px;">
@@ -62,8 +61,7 @@
                                 color:#222;
                                 padding-top:5px;">
                                 <asp:Label ID="Label1" runat="server" 
-                                    Text='<%# Eval("Product_name") %>'>
-                                </asp:Label>
+                                    Text='<%# Eval("Product_name") %>'></asp:Label>
                             </td>
                         </tr>
 
@@ -74,8 +72,7 @@
                                 font-size:15px;
                                 padding-top:5px;">
                                 ₹ <asp:Label ID="Label2" runat="server" 
-                                    Text='<%# Eval("Product_price") %>'>
-                                </asp:Label>
+                                    Text='<%# Eval("Product_price") %>'></asp:Label>
                             </td>
                         </tr>
 
@@ -85,8 +82,7 @@
                                 color:#555;
                                 padding:8px 5px;">
                                 <asp:Label ID="Label3" runat="server" 
-                                    Text='<%# Eval("Product_desc") %>'>
-                                </asp:Label>
+                                    Text='<%# Eval("Product_desc") %>'></asp:Label>
                             </td>
                         </tr>
 

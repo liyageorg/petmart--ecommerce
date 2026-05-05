@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <div style="width:75%; margin:40px auto; background:#ffffff; padding:30px; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); font-family:Segoe UI;">
+    <div style="width:75%; margin:40px auto; background:#ffffff; padding:30px; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); font-family:Segoe UI;">
 
     <h2 style="text-align:center; color:#2c3e50; margin-bottom:25px;">Order Summary</h2>
 

@@ -70,9 +70,11 @@
             </div>
           </li>
 
-          <li class="nav-item">
+         <%-- <li class="nav-item">
             <a class="nav-link" href="about.html"> About </a>
-          </li>
+          </li>--%>
+
+             
 
           <!-- Changed Gallery to Login -->
           <li class="nav-item">
@@ -81,6 +83,10 @@
 
           <li class="nav-item">
             <a class="nav-link pr-lg-0" href="contact.html"> Contact us</a>
+          </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="feedback.aspx">Feedback </a>
           </li>
 
         </ul>
@@ -93,7 +99,7 @@
     <section class=" slider_section position-relative">
       <div class="slider_bg_box" style="text-align:center;">
 
-    <img src= <%--images/user.jpg --%>alt="User Home"
+    <img src= <%--images/user.jpg--%> alt="User Home"
         style="
         width:100%;
         max-width:520px;
