@@ -30,5 +30,16 @@ namespace PET_MART
             Session["catid"] = getid;
             Response.Redirect("viewproduct.aspx");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string search = TextBox1.Text;
+
+            string sel = "select * from Category where Cat_name like '%" + search + "%'";
+
+            DataTable dt = obj.fn_datatable(sel);
+            DataList1.DataSource = dt;
+            DataList1.DataBind();
+        }
     }
 }

@@ -18,6 +18,20 @@
         </td>
     </tr>
 
+    <!-- 🔍 Search Added -->
+    <tr>
+        <td colspan="11" style="text-align:center; padding-bottom:20px;">
+            <asp:TextBox ID="TextBox1" runat="server" placeholder="Search category..."
+                style="padding:10px; width:250px; border-radius:8px; border:1px solid #ccc; outline:none;">
+            </asp:TextBox>
+
+            <asp:Button ID="Button1" runat="server" Text="Search"
+                OnClick="Button1_Click"
+                style="padding:10px 20px; margin-left:10px; border:none; border-radius:8px; background:#2c3e50; color:white; font-weight:600; cursor:pointer;">
+            </asp:Button>
+        </td>
+    </tr>
+
     <tr>
         <td colspan="11" style="text-align:center;">
 

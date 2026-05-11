@@ -132,10 +132,13 @@
     <Content Include="js\jquery-3.4.1.min.js" />
     <Content Include="login.aspx" />
     <Content Include="payment.aspx" />
+    <Content Include="reply.aspx" />
     <Content Include="userhome.aspx" />
+    <Content Include="usermangement.aspx" />
     <Content Include="userreg.aspx" />
     <Content Include="viewbill.aspx" />
     <Content Include="viewcart.aspx" />
+    <Content Include="viewfeedback.aspx" />
     <Content Include="viewproduct.aspx" />
     <Content Include="viewsingleproduct.aspx" />
     <Content Include="Web.config" />
@@ -211,6 +214,13 @@
       <DependentUpon>payment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reply.aspx.cs">
+      <DependentUpon>reply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reply.aspx.designer.cs">
+      <DependentUpon>reply.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -239,6 +249,13 @@
     <Compile Include="userhome.aspx.designer.cs">
       <DependentUpon>userhome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="usermangement.aspx.cs">
+      <DependentUpon>usermangement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usermangement.aspx.designer.cs">
+      <DependentUpon>usermangement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userreg.aspx.cs">
       <DependentUpon>userreg.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -259,6 +276,13 @@
     </Compile>
     <Compile Include="viewcart.aspx.designer.cs">
       <DependentUpon>viewcart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.designer.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
     </Compile>
     <Compile Include="viewproduct.aspx.cs">
       <DependentUpon>viewproduct.aspx</DependentUpon>
