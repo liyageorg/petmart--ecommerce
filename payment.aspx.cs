@@ -62,83 +62,11 @@ namespace PET_MART
             }
         }
 
-        //protected void Button1_Click(object sender, EventArgs e)
-        //{
-        //    pay.ServiceClient ob = new pay.ServiceClient();
-        //    string s = ob.balancheck(TextBox2.Text);
-        //    int s1 = Convert.ToInt32(s);
-        //    int am = Convert.ToInt32(TextBox1.Text);
-        //    if (s1 < am)
-        //    {
-        //        ClientScript.RegisterStartupScript(
-        //        this.GetType(),
-        //        "alert",
-        //        "alert('Insufficient balance');",
-        //        true
-        //        );
-        //    }
-        //    else
-        //    {
-        //        string pid = "select Product_id from Orderr where User_id=" + Session["uid"] + " and Order_status='order'";
-        //        SqlDataReader dr1 = obj.fn_reader(pid);
-        //        List<string> pdlist = new List<string>();
-        //        while (dr1.Read())
-        //        {
-        //            pdlist.Add(dr1["Product_id"].ToString());
-        //        }
-        //        foreach (string productid in pdlist)
-        //        {
-        //            string ord = "select * from Orderr where User_id=" + Session["uid"] + " and Product_id=" + productid + "";
-        //            SqlDataReader dr2 = obj.fn_reader(ord);
-        //            string qty = "";
-        //            while (dr2.Read())
-        //            {
-        //                qty = (dr2["quantity"].ToString());
-        //            }
-
-        //            string upd = "update Orderr set Order_status='paid' where User_id=" + Session["uid"] + " and Product_id=" + productid + "";
-        //            obj.fn_nonquery(upd);
-
-        //            string prodstock = "select Product_stock from Product where product_id=" + productid + "";
-        //            string k = obj.fn_scalar(prodstock);
-
-        //            int oldstock = Convert.ToInt32(k);
-        //            int orderedqty = Convert.ToInt32(qty);
-        //            int updatedstk = oldstock - orderedqty;
-
-        //            string up = "update Product set Product_stock=" + updatedstk + " where Product_id=" + productid + "";
-        //            obj.fn_nonquery(up);
-        //        }
-
-        //        string balamt = "select Balance_amount from Account where User_id=" + Session["uid"] + " and Acc_num='" + TextBox2.Text + "'";
-        //        string p = obj.fn_scalar(balamt);
-        //        int q = Convert.ToInt32(p);
-        //        int r = Convert.ToInt32(TextBox1.Text);
-        //        int t = q - r;
-
-        //        int uid1 = Convert.ToInt32(Session["uid"]);
-        //        int amtred = ob.updateamount(TextBox2.Text, uid1, t);
-        //        ClientScript.RegisterStartupScript(
-        //        this.GetType(),
-        //        "alert",
-        //        "alert('Payment Successful!');",
-        //        true
-        //    );
-        //    }
-        //}
-
-
-
 
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-           
-
             ServiceReference1.ServiceClient ob = new ServiceReference1.ServiceClient();
-
-            // TextBox2 = Account number
-            // TextBox1 = Amount to pay / grand total
 
             long accno;
 

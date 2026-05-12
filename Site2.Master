@@ -93,7 +93,7 @@
     <!-- slider section -->
     <section class=" slider_section position-relative">
       <div class="slider_bg_box">
-        <img src="<%--images/admin.jpg--%>" alt="Admin"
+        <img src="images/admin.jpg" alt="Admin"
      style="width:100%; max-width:500px; height:auto; 
      border-radius:15px; 
      box-shadow:0 8px 20px rgba(0,0,0,0.3); 

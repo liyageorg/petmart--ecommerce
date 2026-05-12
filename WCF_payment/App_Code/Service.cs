@@ -28,30 +28,7 @@ public class Service : IService
 		return result != null ? result.ToString() : "";
 	}
 
-	//public string balancheck(string accno)
-	//{
-	//	string bal = "select Balance_amount from Account where Acc_num='" + accno + "'";
-	//	SqlCommand cmd = new SqlCommand(bal, con);
-	//	con.Open();
-	//	SqlDataReader dr = cmd.ExecuteReader();
-	//	string b = "";
-	//	if (dr.Read())
-	//	{
-	//		b = dr["Balance_amount"].ToString();
-	//	}
-	//	con.Close();
-	//	return b;
-	//}
-
-	//public int updateamount(string accno, int uid, int amount)
-	//{
-	//	string upd = "update Account set Balance_amount='" + amount + "' where User_id=" + uid + " and Acc_num='" + accno + "'";
-	//	SqlCommand cmd = new SqlCommand(upd, con);
-	//	con.Open();
-	//	int i = cmd.ExecuteNonQuery();
-	//	con.Close();
-	//	return i;
-	//}
+	
 
 	public int updateamount(string accno, int uid, decimal newbalance)
 	{

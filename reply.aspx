@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="reply.aspx.cs" Inherits="PET_MART.reply" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style1 {
-            margin-left: 40px;
-        }
-    </style>
+    .auto-style1 {
+        margin-left: 40px;
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <table class="w-100" style="width:60%; margin:45px auto; background:#ffffff; padding:35px; border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,0.12); border-collapse:separate; border-spacing:0 14px;">
+    <table class="w-100" style="width:60%; margin:45px auto; background:#ffffff; padding:35px; border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,0.12); border-collapse:separate; border-spacing:0 14px;">
 
     <tr>
         <td colspan="10" style="text-align:center;">
